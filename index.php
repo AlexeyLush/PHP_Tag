@@ -1,6 +1,6 @@
 <?php
 
-require_once 'classes/Tag.php';
+require_once 'classes/BaseTag.php';
 
 //$div = new Tag('div');
 //$div->setBody('Hello');
@@ -45,12 +45,38 @@ require_once 'classes/Tag.php';
 //
 //echo $link;
 
-class One {
-    static $name = 'John';
+//class One {
+//    static $name = 'John';
+//
+//    function name(){
+//        return self::$name;
+//    }
+//
+//}
+//echo (new One)->name();
 
-    function name(){
-        return self::$name;
-    }
 
-}
-echo (new One)->name();
+
+// Namespace
+//use Tag\Name;
+//require_once "autoload.php";
+//$container = Tag::div()
+//    ->class('container');
+
+//require_once "autoload.php";
+
+//class One{
+//    public $name = 'Bob';
+//}
+//
+//class Two extends One{
+//
+//}
+//
+//echo (new Two)->name;
+
+use kl\PHP\Link;
+
+require_once "autoload.php";
+
+echo Link();

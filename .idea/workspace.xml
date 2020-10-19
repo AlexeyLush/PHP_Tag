@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="074a3863-2137-496d-8c26-6872978a4500" name="Default Changelist" comment="" />
+    <list default="true" id="074a3863-2137-496d-8c26-6872978a4500" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/autoload.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/classes/BaseTag.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/constants.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/namespace.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/Attributes.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/Tag/Attributes.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/Body.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/Tag/Body.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/Name.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/Tag/Name.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/Tag.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/Tag.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,7 +21,13 @@
   <component name="ComposerSettings">
     <execution />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1iurHf1KCZzZu0GoGfb0a6yuija" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -19,8 +36,13 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\OpenServer\OpenServer\domains\oop.test\classes\Tag" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -36,30 +58,55 @@
       <workItem from="1602950797922" duration="81000" />
       <workItem from="1602955281656" duration="57000" />
       <workItem from="1602955340506" duration="47000" />
-      <workItem from="1603036686866" duration="229000" />
+      <workItem from="1603036686866" duration="1241000" />
+      <workItem from="1603112727141" duration="7971000" />
     </task>
+    <task id="LOCAL-00001" summary="Created Project">
+      <created>1603037202555</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1603037202555</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Created Project" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created Project" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="1003" y="372" key="FileChooserDialogImpl" timestamp="1603036823642">
+    <state x="424" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1603122511464">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1003" y="372" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1603036823642" />
-    <state x="402" y="486" key="NewPhpClassDialog" timestamp="1602855202571">
+    <state x="424" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1603122511464" />
+    <state x="975" y="114" key="CommitChangelistDialog2" timestamp="1603037201263">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="402" y="486" key="NewPhpClassDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1602855202571" />
-    <state x="1343" y="703" key="NewPhpFileDialog" timestamp="1602775244130">
+    <state x="975" y="114" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1603037201263" />
+    <state x="1003" y="372" key="FileChooserDialogImpl" timestamp="1603036972691">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1343" y="703" key="NewPhpFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1602775244130" />
-    <state x="480" y="152" key="SettingsEditor" timestamp="1603036916900">
+    <state x="1003" y="372" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1603036972691" />
+    <state x="402" y="486" key="NewPhpClassDialog" timestamp="1603122840894">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="480" y="152" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1603036916900" />
+    <state x="402" y="486" key="NewPhpClassDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1603122840894" />
+    <state x="1343" y="703" key="NewPhpFileDialog" timestamp="1603115652088">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1343" y="703" key="NewPhpFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1603115652088" />
+    <state x="480" y="152" key="SettingsEditor" timestamp="1603114792232">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="480" y="152" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1603114792232" />
+    <state x="423" y="391" key="Vcs.Push.Dialog.v2" timestamp="1603037282942">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="423" y="391" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1603037282942" />
     <state x="1103" y="230" width="672" height="678" key="search.everywhere.popup" timestamp="1602775433349">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

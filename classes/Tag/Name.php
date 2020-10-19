@@ -1,6 +1,8 @@
 <?php
 
 
+namespace kl\PHP\Tag;
+
 class Name
 {
     protected $name;

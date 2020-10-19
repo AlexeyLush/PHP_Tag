@@ -1,5 +1,6 @@
 <?php
 
+namespace kl\PHP\Tag;
 
 class Attributes
 {
@@ -42,6 +43,10 @@ class Attributes
         $old = $this->get($key);
         $value = $old . $value;
         return $this->set($key, $value);
+    }
+
+    function addClass($class){
+        $this->get('class');
     }
 
     function __toString(){
