@@ -74,9 +74,3 @@ require_once 'classes/BaseTag.php';
 //}
 //
 //echo (new Two)->name;
-
-use kl\PHP\Link;
-
-require_once "autoload.php";
-
-echo Link();

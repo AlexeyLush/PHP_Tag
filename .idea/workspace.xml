@@ -2,16 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="074a3863-2137-496d-8c26-6872978a4500" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/autoload.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/classes/BaseTag.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/constants.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/namespace.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/classes/Doctype.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/Attributes.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/Tag/Attributes.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/Body.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/Tag/Body.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/Name.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/Tag/Name.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/Tag.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/Tag.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/namespace.php" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +17,11 @@
     <execution />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="namespace_inheritance" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1iurHf1KCZzZu0GoGfb0a6yuija" />
@@ -60,6 +60,9 @@
       <workItem from="1602955340506" duration="47000" />
       <workItem from="1603036686866" duration="1241000" />
       <workItem from="1603112727141" duration="7971000" />
+      <workItem from="1603123398724" duration="561000" />
+      <workItem from="1603287658944" duration="19000" />
+      <workItem from="1603543704991" duration="2005000" />
     </task>
     <task id="LOCAL-00001" summary="Created Project">
       <created>1603037202555</created>
@@ -68,7 +71,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603037202555</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Работа с namespace и наследованием">
+      <created>1603123568913</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1603123568913</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -76,25 +86,26 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Created Project" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created Project" />
+    <MESSAGE value="Работа с namespace и наследованием" />
+    <option name="LAST_COMMIT_MESSAGE" value="Работа с namespace и наследованием" />
   </component>
   <component name="WindowStateProjectService">
     <state x="424" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1603122511464">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="424" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1603122511464" />
-    <state x="975" y="114" key="CommitChangelistDialog2" timestamp="1603037201263">
+    <state x="975" y="114" key="CommitChangelistDialog2" timestamp="1603123567250">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="975" y="114" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1603037201263" />
-    <state x="1003" y="372" key="FileChooserDialogImpl" timestamp="1603036972691">
+    <state x="975" y="114" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1603123567250" />
+    <state x="1003" y="372" key="FileChooserDialogImpl" timestamp="1603287680232">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1003" y="372" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1603036972691" />
-    <state x="402" y="486" key="NewPhpClassDialog" timestamp="1603122840894">
+    <state x="1003" y="372" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1603287680232" />
+    <state x="402" y="486" key="NewPhpClassDialog" timestamp="1603545548046">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="402" y="486" key="NewPhpClassDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1603122840894" />
+    <state x="402" y="486" key="NewPhpClassDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1603545548046" />
     <state x="1343" y="703" key="NewPhpFileDialog" timestamp="1603115652088">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -103,10 +114,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="480" y="152" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1603114792232" />
-    <state x="423" y="391" key="Vcs.Push.Dialog.v2" timestamp="1603037282942">
+    <state x="423" y="391" key="Vcs.Push.Dialog.v2" timestamp="1603123579529">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="423" y="391" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1603037282942" />
+    <state x="423" y="391" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1603123579529" />
     <state x="1103" y="230" width="672" height="678" key="search.everywhere.popup" timestamp="1602775433349">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
